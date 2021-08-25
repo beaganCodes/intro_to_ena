@@ -1,0 +1,22 @@
+# How to prepare data for ENA? {#data}
+ 
+## Data Coding
+Shaffer, D. W., & Ruis, A. R. (2021, February). How we code. In International Conference on Quantitative Ethnography (pp. 62-77). Springer, Cham.
+
+Data preparation starts with a thorough qualitative analysis of the data (or sample of the data). This facilitates informed interpretation of the data, hypothesis generation, and identification of constructs that may explain the cognitive, behavioral, or interactive phenomena of interest.
+
+- Theory-based (top-down coding)
+- Emerging from data (bottom-up coding) 
+- Mixed methods
+
+To locate constructs in their data, researchers develop a system for determining which constructs are present in which parts of the data. That system can be as simple as a human rater reading each line to determine whether a given construct is in evidence.
+
+When researchers work with large datasets, it is not possible to make coding decisions manually for every excerpt. To identify key constructs in data at scale, researchers often develop automated coding algorithms.
+
+Codebook
+
+## Coding Validation
+Regardless of the coding process used, researchers need to validate their codes to establish that the coding decisions are consistent and accurate. This requires, at a minimum, establishing sufficient agreement between two independent human raters (for manual coding) or between two independent human raters and the automated coding algorithms (for automated coding).
+
+## Data Formatting
+Formatting your data for ENA
