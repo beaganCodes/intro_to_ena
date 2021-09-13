@@ -69,4 +69,9 @@ ena-webtool-stats
 comparison-parametricnon-parametric
 goodness-of-fit-variance
 theory-methods
-final-words
+examples
+short-summary-of-the-shakespeare-plays
+code-elimination-techniques
+model-1-comparison-not-means-rotation-between-individuals
+model-2-trajectory-model-by-acts
+model-3-means-rotation-between-romeo-juliet-and-hamlet

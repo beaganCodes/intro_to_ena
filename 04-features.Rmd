@@ -63,7 +63,7 @@ The fifth page in the tutorial mode enables a selection of comparison groups (Se
 knitr::include_graphics("images/chapter4/tutorialFinal5.png")
 ```
 
-The last page in the tutorial mode shows an overview of all your selections (See Figure \@ref(fig:tutorialFinal6)). You can still change your settings, in the manual mode (See Chapters 4-6). To finish specifying a model, click on *Finish*.
+The last page in the tutorial mode shows an overview of all your selections (See Figure \@ref(fig:tutorialFinal6)). You can still change your settings, in the manual mode (See Chapters 4-6). To finish specifying a model, click on *Finish* [1].
 
 ```{r tutorialFinal6,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Review page in the tutorial mode"}
 knitr::include_graphics("images/chapter4/tutorialFinal6.png")
@@ -92,7 +92,7 @@ knitr::include_graphics("images/chapter4/plotFinal2.png")
 
 ## Set operations
 
-Once you created a set, there are several operations that you can perform. Click on the three dots icon that will appear, when  you hover over your set's name. This will trigger a pop-up window with several options (See Figure \@ref(fig:finalSet)):
+Once you created a set, there are several operations that you can perform. Click on the three dots icon that will appear, when  you hover over your set's name [1]. This will trigger a pop-up window with several options (See Figure \@ref(fig:finalSet)):
 
 * Use *Copy Set* [2] to create several variations of your model. When you click on *Copy Set*, a pop-up window will appear, where you can name the new set. Click on *Copy*, and a copy of the original set will appear in the set list. 
 * *Export Set & Data* [3] is useful to share your model with others or to explore how a model would have been developed using the R programming language. It creates a file with data, and an ENA r project file. 
