@@ -1,0 +1,12 @@
+# Examples of ENA models {#examples}
+
+## Short summary of the Shakespeare plays
+
+## Code elimination techniques
+
+Wang, Y., Swiecki, Z., Ruis, A. R., & Shaffer, D. W. (2021, February). Simplification of Epistemic Networks Using Parsimonious Removal with Interpretive Alignment. In International Conference on Quantitative Ethnography (pp. 137-151). Springer, Cham.
+
+## Model 1: Comparison (not means rotation) between Individuals
+## Model 2: Trajectory model by acts
+## Model 3: Means Rotation between Romeo & Juliet and Hamlet
+
