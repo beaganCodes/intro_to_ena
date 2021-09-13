@@ -75,3 +75,9 @@ code-elimination-techniques
 model-1-comparison-not-means-rotation-between-individuals
 model-2-trajectory-model-by-acts
 model-3-means-rotation-between-romeo-juliet-and-hamlet
+fig:unitSelection1
+fig:unitsMeans1
+fig:unitsHide1
+fig:unitsExclude1
+fig:unitsAdvanced1
+advanced-options

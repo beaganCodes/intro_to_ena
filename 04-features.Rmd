@@ -106,13 +106,41 @@ knitr::include_graphics("images/chapter4/setFinal.png")
 
 # ENA webtool: Units 
 
+```{r unitSelection1,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Unit selection"}
+knitr::include_graphics("images/chapter5/unitSelection1.png")
+```
+
 ## Mean options
+
+```{r unitsMeans1,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Unit means"}
+knitr::include_graphics("images/chapter5/unitsMeans1.png")
+```
+
 ## Hide/unhide
+
+```{r unitsHide1,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Hiding/unhiding units"}
+knitr::include_graphics("images/chapter5/unitsHide1.png")
+```
+
 ## Exclude/include
+
+```{r unitsExclude1,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Excluding/including units"}
+knitr::include_graphics("images/chapter5/unitsExclude1.png")
+```
+
 ## Create Sample
-## Sphere Norm
-## Zero Points at Origin
-## Mean Rotation
+
+
+
+## Advanced Options
+
+```{r unitsAdvanced1,echo=FALSE, fig.show = "hold", fig.align="center", fig.cap="Advanced options for units"}
+knitr::include_graphics("images/chapter5/unitsAdvanced1.png")
+```
+
+### Sphere Norm
+### Zero Points at Origin
+### Mean Rotation
 
 # ENA webtool: Conversation
 
