@@ -10,3 +10,5 @@ applications
 example-one
 example-two
 final-words
+ena-workflow
+ena-development

@@ -1,21 +1,58 @@
-# Introduction {#intro}
+# What is Epistemic Network Analysis? {#intro}
 
-You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods).
+Epistemic Network Analysis (ENA) has two main characteristics:
 
-Figures and tables with captions will be placed in `figure` and `table` environments, respectively.
+1) it visualises patterns of connections among codes in a discourse;
+2) it enables a comparison of multiple networks.
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
+In comparison to other types of networks, for example, Social Network Analysis, ENA focuses on the content rather than structure of a network. Here are two video examples of ENA:
+
+1) A comparison of a discourse by different detectives discussing a case
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/wrTiXNIeHZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
 ```
-
-Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab).
-
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(iris, 20), caption = 'Here is a nice table!',
-  booktabs = TRUE
+2) A comparison of press conferences held by Prime Minister of New Zealand Jacinda Ardern and the President of the United States Donald Trump on the novel corona virus (SARS-CoV-2)
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/Sy-gwY3SXQ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 )
 ```
 
-You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015].
+ENA is a method that emerged from the field of Quantitative Ethnography (QE). For more information on QE and ENA watch the keynote by David Williamson Shaffer: 
+```{r, eval=knitr::is_html_output(excludes = "epub"), results = 'asis', echo = F}
+cat(
+'<iframe width="560" height="315" src="https://www.youtube.com/embed/LjcfGSdIBAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+)
+```
+
+And check the QE repository: LINK
+
+In this tutorial we are going to ....
+
+## ENA workflow
+
+1. Grounded Analysis
+ 
+QE researchers begin with a thorough qualitative analysis of their data (or sample of their data). This facilitates informed interpretation of the data, hypothesis generation, and identification of constructs that may explain the cognitive, behavioral, or interactive phenomena of interest.
+
+2. Data Coding
+ 
+To locate constructs in their data, researchers develop a system for determining which constructs are present in which parts of the data. That system can be as simple as a human rater reading each line to determine whether a given construct is in evidence.
+
+3. Automated Coding Process
+ 
+When researchers work with large datasets, it is not possible to make coding decisions manually for every excerpt. To identify key constructs in data at scale, researchers often develop automated coding algorithms.
+
+4. Coding Validation
+ 
+Regardless of the coding process used, researchers need to validate their codes to establish that the coding decisions are consistent and accurate. This requires, at a minimum, establishing sufficient agreement between two independent human raters (for manual coding) or between two independent human raters and the automated coding algorithms (for automated coding).
+
+5. Model Specification
+ 
+Once a dataset has been coded for the constructs of interest, researchers develop models of those codes to conduct exploratory or confirmatory analyses. This involves selecting a technique that can model the relationships among codes found in the qualitative analysis, and choosing variables that define the unit of analysis and other model parameters. Here, a particular emphasis in QE is aligning the quantitative model with the pattern observed in the qualitative analysis, so that the quantitative model can warrant that the grounded pattern observed is consistent throughout the data.
+
+6. Qualitative Regrounding (Loop Closing)
+ 
+Finally, researchers confirm that a result from their model is meaningful through a process of qualitative regrounding. That is, they confirm that the outputs and explanatory properties of a model are aligned with the findings of their original grounded analysis, thus closing the interpretive loop.
