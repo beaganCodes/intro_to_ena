@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 3 ENA development | Introduction to the Epistemic Network Analysis webtool</title>
+  <title>Chapter 8 ENA webtool: Plot tools | Introduction to the Epistemic Network Analysis webtool</title>
   <meta name="description" content="This is an introduction to the Epistemic Network Analysis web tool." />
   <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 3 ENA development | Introduction to the Epistemic Network Analysis webtool" />
+  <meta property="og:title" content="Chapter 8 ENA webtool: Plot tools | Introduction to the Epistemic Network Analysis webtool" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 3 ENA development | Introduction to the Epistemic Network Analysis webtool" />
+  <meta name="twitter:title" content="Chapter 8 ENA webtool: Plot tools | Introduction to the Epistemic Network Analysis webtool" />
   
   <meta name="twitter:description" content="This is an introduction to the Epistemic Network Analysis web tool." />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="data.html"/>
-<link rel="next" href="features.html"/>
+<link rel="prev" href="ena-webtool-codes.html"/>
+<link rel="next" href="ena-webtool-data-view.html"/>
 <script src="libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -184,18 +184,70 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="ena-development" class="section level1" number="3">
-<h1><span class="header-section-number">Chapter 3</span> ENA development</h1>
-<p>‚</p>
-
+<div id="ena-webtool-plot-tools" class="section level1" number="8">
+<h1><span class="header-section-number">Chapter 8</span> ENA webtool: Plot tools</h1>
+<div id="dimensions" class="section level2" number="8.1">
+<h2><span class="header-section-number">8.1</span> Dimensions</h2>
+<div id="dimension-labels" class="section level3" number="8.1.1">
+<h3><span class="header-section-number">8.1.1</span> Dimension labels</h3>
+</div>
+<div id="flip-dimensions" class="section level3" number="8.1.2">
+<h3><span class="header-section-number">8.1.2</span> Flip dimensions</h3>
+</div>
+<div id="variance-explained" class="section level3" number="8.1.3">
+<h3><span class="header-section-number">8.1.3</span> Variance explained</h3>
+</div>
+<div id="dimension-types" class="section level3" number="8.1.4">
+<h3><span class="header-section-number">8.1.4</span> Dimension types</h3>
+</div>
+</div>
+<div id="plotted-points" class="section level2" number="8.2">
+<h2><span class="header-section-number">8.2</span> Plotted points</h2>
+<div id="scale-units" class="section level3" number="8.2.1">
+<h3><span class="header-section-number">8.2.1</span> Scale units</h3>
+</div>
+<div id="unit-labels" class="section level3" number="8.2.2">
+<h3><span class="header-section-number">8.2.2</span> Unit labels</h3>
+</div>
+<div id="group-labels" class="section level3" number="8.2.3">
+<h3><span class="header-section-number">8.2.3</span> Group labels</h3>
+</div>
+<div id="comparison" class="section level3" number="8.2.4">
+<h3><span class="header-section-number">8.2.4</span> Comparison</h3>
+</div>
+<div id="text-size" class="section level3" number="8.2.5">
+<h3><span class="header-section-number">8.2.5</span> Text size</h3>
+</div>
+</div>
+<div id="network-graph" class="section level2" number="8.3">
+<h2><span class="header-section-number">8.3</span> Network graph</h2>
+<div id="code-labels" class="section level3" number="8.3.1">
+<h3><span class="header-section-number">8.3.1</span> Code labels</h3>
+</div>
+<div id="show-unconnected-codes" class="section level3" number="8.3.2">
+<h3><span class="header-section-number">8.3.2</span> Show unconnected codes</h3>
+</div>
+<div id="connection-weights" class="section level3" number="8.3.3">
+<h3><span class="header-section-number">8.3.3</span> Connection weights</h3>
+</div>
+<div id="minimum-edge-weight" class="section level3" number="8.3.4">
+<h3><span class="header-section-number">8.3.4</span> Minimum edge weight</h3>
+</div>
+<div id="scale-for-edge-weigths" class="section level3" number="8.3.5">
+<h3><span class="header-section-number">8.3.5</span> Scale for edge weigths</h3>
+</div>
+<div id="weight-group-networks" class="section level3" number="8.3.6">
+<h3><span class="header-section-number">8.3.6</span> Weight group networks</h3>
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
-<a href="data.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="features.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="ena-webtool-codes.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="ena-webtool-data-view.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -227,7 +279,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/kamilamisiejuk/intro_to_ena/edit/main/03-ena.Rmd",
+"link": "https://github.com/kamilamisiejuk/intro_to_ena/edit/main/04-features.Rmd",
 "text": "Edit"
 },
 "history": {
