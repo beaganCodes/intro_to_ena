@@ -39,3 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 _bookdown_files
+
+images
